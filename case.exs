@@ -5,23 +5,23 @@ case {1, 2, 3} do
     IO.puts("case 1")
 
   {1, 2, 3} ->
-    IO.puts("dick 1")
+    IO.puts("qwe 1")
 end
 
-# output : "dick 1"
+# output : "qwe 1"
 
 case {1,2,3} do
   {1,2,4} ->
     IO.puts("case 1")
   {1,x,3} ->
-    IO.puts("dick 2")
+    IO.puts("qwe 2")
 end
-# output : "dick 2"
+# output : "qwe 2"
 
 y = 2
 
 case {1,2,3} do
   {1,^y,3} ->
-    IO.puts("dick 3")
+    IO.puts("qwe 3")
 end
-# output : "dick 3"
+# output : "qwe 3"
