@@ -11,11 +11,25 @@ defmodule Math do
       y ** 2 + x
   end
  end
+
+ def qwe(x,y) do
+  multiply(x,y)
+ end
+
+
+ defp multiply(x,y) do
+  x * y
+ end
+
+
 end
 
 res = Math.square?(2)
 
 sum = Math.sum(2,4)
 
+qwe = Math.qwe(10,10)
 IO.puts(res)
 IO.puts(sum)
+
+IO.puts(qwe)
